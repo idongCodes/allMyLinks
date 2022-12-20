@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ProfileImg from '/home/idong/Desktop/my-linktree/src/assests/profile-img.jpeg';
+import ProfileImg from '../../assests/profile-img.jpeg';
 
 function ProfilePic() {
 
