@@ -12,7 +12,7 @@ function ProfileHeadline() {
     return (
         <HeadlineMain>
             <p>
-                Pleased to meet you 👋, I'm Idong! A first generation Nigerian-American & non-traditional Software Engineer. My dream is to one day become a Software Architect. I also have a huge interest in Developer Relations, and a tiny interest in DevOps. A controversial opinion of mine is that pineapples 🍍 definitely <strong>DO NOT</strong> belong on pizza 🍕😬.
+                Pleased to meet you 👋, I'm Idong! A first generation Nigerian-American & non-traditional Software Engineer. My dream is to one day become a Software Architect. I also have a huge interest in Developer Relations and DevOps. A controversial opinion of mine is that pineapples 🍍 definitely <strong>DO NOT</strong> belong on pizza 🍕😬. Connect with me below!
             </p>
         </HeadlineMain>
     )
