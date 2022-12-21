@@ -7,7 +7,7 @@ function ProfileCard() {
     const ProfileContainer = styled.div`
          padding: 3%;
 
-         @media screen and (min-width: 400px) {
+         @media screen and (min-width: 600px) {
             // background: #ddd;
             padding: 15px;
          }  

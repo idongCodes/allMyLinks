@@ -13,7 +13,7 @@ function ProfilePic() {
         background-repeat: no-repeat;
         margin: 0 auto;
 
-        @media screen and (min-width: 400px) {
+        @media screen and (min-width: 600px) {
             border: 1px solid #ddd;
             border-radius: 20px;
             width: 550px;
@@ -32,7 +32,7 @@ function ProfilePic() {
             width: 200px;
             height: 200px;
 
-            @media screen and (min-width: 400px) {
+            @media screen and (min-width: 600px) {
                 display: block;
                 margin: 0 auto;
             }

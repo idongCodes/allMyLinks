@@ -8,7 +8,7 @@ function ProfileHeadline() {
         font-size: .8rem;
         text-align: justify;
 
-        @media screen and (min-width: 400px) {
+        @media screen and (min-width: 600px) {
             width: 520px;
             margin: 30px auto 15px;
             border: 1px solid #ddd;

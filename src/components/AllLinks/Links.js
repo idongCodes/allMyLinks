@@ -8,7 +8,7 @@ function Links() {
         display: flex;
         flex-wrap: wrap;
 
-        @media screen and (min-width: 400px) {
+        @media screen and (min-width: 600px) {
             border: 1px solid #ddd;
             border-radius: 20px;
             box-shadow: 5px 5px 5px #ddd;
