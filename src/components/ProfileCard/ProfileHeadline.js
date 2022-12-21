@@ -7,6 +7,23 @@ function ProfileHeadline() {
         padding: 0 4%;
         font-size: .8rem;
         text-align: justify;
+
+        @media screen and (min-width: 400px) {
+            width: 520px;
+            margin: 30px auto 15px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 15px;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: left;
+            box-shadow: 5px 5px 5px #ddd;
+
+            &:hover {
+                box-shadow: 5px 5px 5px #bbb;
+                border: 1px solid #bbb;
+            }
+        }
     `
 
     return (

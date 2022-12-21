@@ -6,6 +6,11 @@ function ProfileCard() {
 
     const ProfileContainer = styled.div`
          padding: 3%;
+
+         @media screen and (min-width: 400px) {
+            // background: #ddd;
+            padding: 15px;
+         }  
     `
 
     return (

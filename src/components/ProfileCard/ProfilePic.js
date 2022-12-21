@@ -12,10 +12,35 @@ function ProfilePic() {
         background-position: center;
         background-repeat: no-repeat;
         margin: 0 auto;
+
+        @media screen and (min-width: 400px) {
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            width: 550px;
+            height: auto;
+            background-image: none;
+            box-shadow: 5px 5px 5px #ddd;
+
+            &:hover {
+                box-shadow: 5px 5px 5px #bbb;
+                border: 1px solid #bbb;
+            }
+        }
     `
+        const MyImg = styled.img`
+            display: none;
+            width: 200px;
+            height: 200px;
+
+            @media screen and (min-width: 400px) {
+                display: block;
+                margin: 0 auto;
+            }
+        `
 
     return (
         <ImgContainer>
+            <MyImg src={ ProfileImg } alt="illustration of my face" />
         </ImgContainer>
     )
 }
