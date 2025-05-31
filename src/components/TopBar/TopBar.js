@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function TopBar() {
@@ -33,10 +32,10 @@ export default function TopBar() {
         <TopBarContainer>
             <TopBarUl>
                 <li>
-                    <A href="sms:+17743126471?body=Hey%20Idong,%20I%20was%20on%20your%20links%20site.%20Looking%20forward%20to%20speaking%20with%20you%20about%20..."><FontAwesomeIcon icon={faPhone} /></A>
+                    <A href="sms:+17743126471?body=Hey%20Idong,%20I%20was%20on%20your%20links%20site.%20Looking%20forward%20to%20speaking%20with%20you%20about%20..."><FontAwesomeIcon icon={['fas', 'phone']} /></A>
                 </li>
                 <li>
-                    <A href="mailto:idong.essien@comcast.net?subject=RE:%20All%20Your%20Links&body=Does%20this%20work?">e: idong.essien@comcast.net</A>
+                    <A href="mailto:idong.essien@comcast.net?subject=RE:%20All%20Your%20Links&body=Does%20this%20work?"><FontAwesomeIcon icon={['fas', 'envelope']} /></A>
                 </li>
             </TopBarUl>
         </TopBarContainer>
