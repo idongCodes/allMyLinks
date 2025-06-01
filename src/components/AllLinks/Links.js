@@ -21,8 +21,17 @@ function Links() {
         padding: 0 15px;
         display: flex;
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 15px;
         justify-content: center;
+
+        a {
+        font-size: 1.6rem;
+        color: rgb(0, 140, 255);
+
+            &:hover {
+                color: rgb(0, 0, 0);
+            }
+        }
 
         @media screen and (min-width: 600px) {
             border: 1px solid #ddd;
