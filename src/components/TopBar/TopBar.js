@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaPhone } from "react-icons/fa6";
-import { FaEnvelope } from "react-icons/fa6";
-
+import { FaPhone, FaEnvelope } from "react-icons/fa6";
 
 export default function TopBar() {
 

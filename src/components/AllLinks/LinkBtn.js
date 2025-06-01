@@ -1,5 +1,18 @@
 import React from 'react';
 import styled from "styled-components";
+import { FaGithub, 
+         FaLinkedin, 
+         FaXTwitter, 
+         FaInstagram, 
+         FaFacebook, 
+         FaThreads, 
+         FaSnapchat, 
+         FaBluesky, 
+         FaMastodon, 
+         FaMedium, 
+         FaHashnode, 
+         FaGlobe, 
+         FaSuitcase  } from "react-icons/fa6";
 
 export default function LinkBtn(props) {
 
