@@ -36,7 +36,7 @@ export default function TopBar() {
 </A>
                 </li>
                 <li>
-                    <A href="mailto:idong.essien@comcast.net?subject=RE:%20All%20Your%20Links&body=Does%20this%20work?"><FontAwesomeIcon icon={['fas', 'envelope']}/></A>
+                    <A href="mailto:idong.essien@comcast.net?subject=RE:%20All%20Your%20Links&body=Does%20this%20work?"></A>
                 </li>
             </TopBarUl>
         </TopBarContainer>
