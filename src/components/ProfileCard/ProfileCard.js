@@ -1,3 +1,4 @@
+import React from 'react';
 import ProfilePic from './ProfilePic.js';
 import ProfileHeadline from './ProfileHeadline.js';
 import styled from 'styled-components';

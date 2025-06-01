@@ -1,3 +1,4 @@
+import React from 'react';
 import LinkBtn from "./LinkBtn.js";
 import styled from "styled-components";
 
