@@ -15,16 +15,14 @@ function ProfilePic() {
         margin: 0 auto;
 
         @media screen and (min-width: 600px) {
-            border: 1px solid #ddd;
-            border-radius: 20px;
+            // border-radius: 20px;
             width: 550px;
             height: auto;
             background-image: none;
-            box-shadow: 5px 5px 5px #ddd;
 
             &:hover {
-                box-shadow: 5px 5px 5px #bbb;
-                border: 1px solid #bbb;
+                // box-shadow: 5px 5px 5px #bbb;
+                // border: 1px solid #bbb;
             }
         }
     `
@@ -32,6 +30,7 @@ function ProfilePic() {
             display: none;
             width: 200px;
             height: 200px;
+            border-radius: 100px;
 
             @media screen and (min-width: 600px) {
                 display: block;

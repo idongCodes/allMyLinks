@@ -9,7 +9,6 @@ function ProfileCard() {
          padding: 3%;
 
          @media screen and (min-width: 600px) {
-            // background: #ddd;
             padding: 15px;
          }  
     `
