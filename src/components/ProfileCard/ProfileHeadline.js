@@ -12,7 +12,6 @@ function ProfileHeadline() {
         @media screen and (min-width: 600px) {
             width: 520px;
             margin: 30px auto 15px;
-            border: 1px solid #ddd;
             border-radius: 20px;
             padding: 15px;
             font-size: 1rem;
@@ -22,7 +21,6 @@ function ProfileHeadline() {
 
             &:hover {
                 box-shadow: 5px 5px 5px #bbb;
-                border: 1px solid #bbb;
             }
         }
     `

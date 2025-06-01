@@ -34,7 +34,6 @@ function Links() {
         }
 
         @media screen and (min-width: 600px) {
-            border: 1px solid #ddd;
             border-radius: 20px;
             box-shadow: 5px 5px 5px #ddd;
             width: 520px;
@@ -43,7 +42,6 @@ function Links() {
 
             &:hover {
                 box-shadow: 5px 5px 5px #bbb;
-                border: 1px solid #bbb;
             }
         }
     `
