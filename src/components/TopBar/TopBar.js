@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaPhone } from "react-icons/fa6";
+import { FaEnvelope } from "react-icons/fa6";
+
 
 export default function TopBar() {
 
@@ -36,7 +38,7 @@ export default function TopBar() {
 </A>
                 </li>
                 <li>
-                    <A href="mailto:idong.essien@comcast.net?subject=RE:%20All%20Your%20Links&body=Does%20this%20work?"></A>
+                    <A href="mailto:idong.essien@comcast.net?subject=RE:%20All%20Your%20Links&body=Does%20this%20work?"><FaEnvelope /></A>
                 </li>
             </TopBarUl>
         </TopBarContainer>
