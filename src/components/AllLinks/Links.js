@@ -21,6 +21,8 @@ function Links() {
         padding: 0 15px;
         display: flex;
         flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
 
         @media screen and (min-width: 600px) {
             border: 1px solid #ddd;
