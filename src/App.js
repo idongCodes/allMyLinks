@@ -1,3 +1,4 @@
+import React from 'react';
 import TopBar from './components/TopBar/TopBar.js';
 import ProfileCard from './components/ProfileCard/ProfileCard.js';
 import Footer from './components/Footer/Footer.js';
