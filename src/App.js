@@ -9,9 +9,11 @@ import './App.css';
 function App() {
  return (
     <div className="App">
-      <TopBar />
-      <ProfileCard />
-      <Links />
+      <div className="main-content">
+        <TopBar />
+        <ProfileCard />
+        <Links />
+      </div>
       <Footer />
     </div>
   );
