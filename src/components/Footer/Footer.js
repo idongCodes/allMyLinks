@@ -7,9 +7,8 @@ function Footer() {
     background: #ddd;
     padding: 15px;
     color: #444;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    flex: 1;
+    margin: 30px 0 0;
     `
      
     const currentYear = new Date().getFullYear();

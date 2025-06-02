@@ -11,7 +11,7 @@ function ProfilePic() {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        margin: 0 auto;
+        margin: 15px auto 0;
         border-radius: 100%;
         border: 5px solid rgb(0, 140, 255);
 
