@@ -18,30 +18,18 @@ import { FaGithub,
 function Links() {
 
     const LinksMain = styled.div`
-        padding: 0 15px;
+        padding: 0 15px 25px;
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
         justify-content: center;
 
         a {
-        font-size: 1.6rem;
+        font-size: 2rem;
         color: rgb(0, 140, 255);
 
             &:hover {
                 color: rgb(0, 0, 0);
-            }
-        }
-
-        @media screen and (min-width: 600px) {
-            border-radius: 20px;
-            box-shadow: 5px 5px 5px #ddd;
-            width: 520px;
-            padding: 15px;
-            margin: 0 auto;
-
-            &:hover {
-                box-shadow: 5px 5px 5px #bbb;
             }
         }
     `
