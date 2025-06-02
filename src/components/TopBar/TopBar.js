@@ -12,19 +12,18 @@ export default function TopBar() {
         margin: 0;
         padding: 10px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         list-style: none;
+        gap: 30px;
     `
 
     const A = styled.a`
         text-decoration: none;
         color: #fff;
-        font-size: 12px;
+        font-size: 1.5rem;
 
         &:hover {
-            font-weight: bold;
+            color: rgb(0, 0, 0);
         }
     `
 
