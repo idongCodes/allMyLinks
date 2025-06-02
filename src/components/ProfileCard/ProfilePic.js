@@ -7,30 +7,30 @@ function ProfilePic() {
     const ImgContainer = styled.div`
         width: 170px;
         height: 170px;
-        border-radius: 150px;
         background-image: url(${ ProfileImg});
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         margin: 0 auto;
+        border-radius: 100px;
 
         @media screen and (min-width: 600px) {
             // border-radius: 20px;
             width: 550px;
             height: auto;
             background-image: none;
-
-            &:hover {
-                // box-shadow: 5px 5px 5px #bbb;
-                // border: 1px solid #bbb;
-            }
         }
     `
         const MyImg = styled.img`
             display: none;
-            width: 200px;
-            height: 200px;
-            border-radius: 100px;
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+            border: 5px solid rgb(0, 140, 255);
+
+            &:hover {
+                border: 5px solid rgb(0, 0, 0);
+            }
 
             @media screen and (min-width: 600px) {
                 display: block;
